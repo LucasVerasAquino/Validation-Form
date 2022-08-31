@@ -14,6 +14,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/*  MOBILE FIRST  */
 /* Left-side/Top-side  */
 .container {
     display: flex;
@@ -74,10 +75,12 @@ body {
     margin-bottom: 25px;
     color: white;
     text-align: center;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.125);
 }
 
 .trial-card p {
     width: 80%;
+    color: rgba(255, 255, 255, 0.800);
 }
 
 .form {
@@ -90,13 +93,15 @@ body {
     overflow: hidden;
     padding: 22px;
     margin-bottom: 60px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.125);
 }
 
 .form-control {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    font-style: italic;
+    margin-bottom: 18px;
 }
 
 .form-control img {
@@ -110,15 +115,19 @@ body {
 .form-control small {
     color: hsl(0, 100%, 74%);
     text-align: right;
-    
+    position: absolute;
+    top: 57px;
+    right: 0px;
+    font-size: 12px;
 }
 
 .form-control input {
     display: block;
     padding: 18px;
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.150);
+    border: 1px solid rgba(0, 0, 0, 0.140);
     font-weight: bold;
+    outline-color: hsl(248, 32%, 49%);
 }
 
 .submit-btn {
@@ -130,17 +139,51 @@ body {
     color: white;
     letter-spacing: 1.2px;
     font-weight: 700;
+    box-shadow: 0px 4px 0px hsl(154, 48%, 48%);
+}
+
+.submit-btn:hover {
+    background-color: hsl(154, 69%, 66%);
+    box-shadow: 0px 4px 0px hsl(154, 58%, 58%);
+    cursor: pointer;
 }
 
 .form > small {
     color: rgba(0, 0, 0, 0.380);
     font-size: 10px;
     text-align: center;
-    margin: 10px 24px 0px 24px;
+    margin: 15px 24px 4px 24px;
 }
 
 .form > small > a {
     text-decoration: none;
     color: hsl(0, 100%, 74%);
     font-weight: bold;
+}
+
+
+/* Validation */
+
+.form-control small {
+    visibility: hidden;
+}
+
+.form-control img {
+    visibility: hidden;
+}
+
+.form-control.error input{
+    border-color: hsl(0, 100%, 74%);
+}
+
+.form-control.error img {
+    visibility: visible;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form-control.error {
+    margin-bottom: 32px;
 }
