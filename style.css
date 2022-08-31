@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Left-side/Top-side  */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.left-side {
+    display: block;
+    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+.left-side  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.left-side header h1 {
+    font-size: 27px;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.left-side header p {
+    width: 85%;
+    font-size: 16px;
+}
+
+
+/* Right-side/down-side */
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.trial-card {
+    background-color: hsl(248, 32%, 49%);
+    width: 85%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    padding: 26px;
+    margin-bottom: 25px;
+    color: white;
+    text-align: center;
+}
+
+.trial-card p {
+    width: 80%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 22px;
+    margin-bottom: 60px;
+}
+
+.form-control {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-control img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 18px;
+    top: 16px;
+}
+
+.form-control small {
+    color: hsl(0, 100%, 74%);
+    text-align: right;
+    
+}
+
+.form-control input {
+    display: block;
+    padding: 18px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.150);
+    font-weight: bold;
+}
+
+.submit-btn {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+}
+
+.form > small {
+    color: rgba(0, 0, 0, 0.380);
+    font-size: 10px;
+    text-align: center;
+    margin: 10px 24px 0px 24px;
+}
+
+.form > small > a {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+    font-weight: bold;
+}
