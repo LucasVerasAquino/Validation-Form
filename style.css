@@ -187,3 +187,7 @@ body {
 .form-control.error {
     margin-bottom: 32px;
 }
+
+.form-control.email-exemple.error ::placeholder{
+    color: hsl(0, 100%, 74%);
+}
