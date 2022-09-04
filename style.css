@@ -115,10 +115,7 @@ body {
 .form-control small {
     color: hsl(0, 100%, 74%);
     text-align: right;
-    position: absolute;
-    top: 57px;
-    right: 0px;
-    font-size: 12px;
+
 }
 
 .form-control input {
@@ -149,7 +146,7 @@ body {
 }
 
 .form > small {
-    color: rgba(0, 0, 0, 0.380);
+    color: rgba(0, 0, 0, 0.400);
     font-size: 10px;
     text-align: center;
     margin: 15px 24px 4px 24px;
@@ -182,10 +179,7 @@ body {
 
 .form-control.error small {
     visibility: visible;
-}
-
-.form-control.error {
-    margin-bottom: 32px;
+    margin-top: 4px;
 }
 
 .form-control.email-exemple.error ::placeholder{
