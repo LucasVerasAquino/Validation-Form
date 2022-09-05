@@ -11,10 +11,12 @@ body {
     width: 100vw;
     background-image: url(./images/bg-intro-mobile.png);
     background-color: hsl(0, 100%, 74%);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Poppins', sans-serif;
 }
 
-/*  MOBILE FIRST  */
+    /*  MOBILE FIRST  */
 /* Left-side/Top-side  */
 .container {
     display: flex;
@@ -25,7 +27,6 @@ body {
 
 .left-side {
     display: block;
-    margin-bottom: 20px;
     margin-bottom: 60px;
 }
 
@@ -179,9 +180,339 @@ body {
 
 .form-control.error small {
     visibility: visible;
-    margin-top: 4px;
+    margin-top: 5px;
 }
 
 .form-control.email-exemple.error ::placeholder{
     color: hsl(0, 100%, 74%);
+}
+
+
+
+
+
+
+    /*  Media-Queries  */
+
+/*  MODELO LAPTOP */
+@media (min-width: 1440px) {
+
+    body {
+        background-image: url(./images/bg-intro-desktop.png);
+        background-color: hsl(0, 100%, 74%);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .left-side {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-bottom: 0px;
+    }
+    
+    .left-side header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        width: 90%;
+        color: white;
+        text-align: start;
+        margin-top: 0px;
+    }
+    
+    .left-side header h1 {
+        font-size: 42px;
+        width: 75%;
+        margin-bottom: 20px;
+    }
+    
+    .left-side header p {
+        width: 75%;
+        font-size: 15px;
+        text-align: start;
+    }
+
+
+
+    /* Right-side/down-side */
+
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .trial-card {
+        background-color: hsl(248, 32%, 49%);
+        width: 75%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        padding: 20px;
+        margin-bottom: 25px;
+        color: white;
+        text-align: center;
+        box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.125);
+        margin-left: 16px;
+    }
+
+    .trial-card p {
+        width: 75%;
+        color: rgba(255, 255, 255, 0.800);
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        max-width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 36px;
+        margin-bottom: 0px;
+        box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.125);
+        margin-left: 16px;
+    }
+
+    .form-control {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-style: italic;
+        margin-bottom: 18px;
+    }
+
+    .form-control img {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 18px;
+        top: 16px;
+    }
+
+    .form-control small {
+        color: hsl(0, 100%, 74%);
+        text-align: right;
+    }
+
+    .form-control input {
+        display: block;
+        padding: 18px 28px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.140);
+        font-weight: bold;
+        outline-color: hsl(248, 32%, 49%);
+    }
+
+    .submit-btn {
+        box-sizing: border-box;
+        padding: 18px;
+        background-color: hsl(154, 59%, 51%);
+        border: none;
+        border-radius: 6px;
+        color: white;
+        letter-spacing: 1.2px;
+        font-weight: 700;
+        box-shadow: 0px 4px 0px hsl(154, 48%, 48%);
+    }
+
+    .submit-btn:hover {
+        background-color: hsl(154, 69%, 66%);
+        box-shadow: 0px 4px 0px hsl(154, 58%, 58%);
+        cursor: pointer;
+    }
+
+    .form > small {
+        color: rgba(0, 0, 0, 0.400);
+        font-size: 11px;
+        text-align: center;
+        margin: 18px 20px 6px 20px;
+    }
+
+    .form > small > a {
+        text-decoration: none;
+        color: hsl(0, 100%, 74%);
+        font-weight: bold;
+    }
+
+
+}
+
+
+
+
+/* MODELO DESKTOP */
+
+@media (min-width: 1920px) {
+
+    body {
+        background-image: url(./images/bg-intro-desktop.png);
+        background-color: hsl(0, 100%, 74%);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .left-side {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-bottom: 0px;
+    }
+    
+    .left-side header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        width: 85%;
+        color: white;
+        text-align: start;
+        margin-top: 0px;
+    }
+    
+    .left-side header h1 {
+        font-size: 44px;
+        width: 65%;
+        margin-bottom: 20px;
+    }
+    
+    .left-side header p {
+        width: 65%;
+        font-size: 17px;
+        text-align: start;
+    }
+
+
+
+    /* Right-side/down-side */
+
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .trial-card {
+        background-color: hsl(248, 32%, 49%);
+        width: 62%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        padding: 20px;
+        margin-bottom: 25px;
+        color: white;
+        text-align: center;
+        box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.125);
+        margin-left: 20px;
+    }
+
+    .trial-card p {
+        width: 75%;
+        color: rgba(255, 255, 255, 0.800);
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 62%;
+        max-width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 36px;
+        margin-bottom: 0px;
+        box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.125);
+        margin-left: 20px;
+    }
+
+    .form-control {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-style: italic;
+        margin-bottom: 18px;
+    }
+
+    .form-control img {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 18px;
+        top: 16px;
+    }
+
+    .form-control small {
+        color: hsl(0, 100%, 74%);
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .form-control input {
+        display: block;
+        padding: 18px 28px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.140);
+        font-weight: bold;
+        outline-color: hsl(248, 32%, 49%);
+    }
+
+    .submit-btn {
+        box-sizing: border-box;
+        padding: 18px;
+        background-color: hsl(154, 59%, 51%);
+        border: none;
+        border-radius: 6px;
+        color: white;
+        letter-spacing: 1.2px;
+        font-weight: 700;
+        box-shadow: 0px 4px 0px hsl(154, 48%, 48%);
+    }
+
+    .submit-btn:hover {
+        background-color: hsl(154, 69%, 66%);
+        box-shadow: 0px 4px 0px hsl(154, 58%, 58%);
+        cursor: pointer;
+    }
+
+    .form > small {
+        color: rgba(0, 0, 0, 0.400);
+        font-size: 11px;
+        text-align: center;
+        margin: 18px 20px 6px 20px;
+    }
+
+    .form > small > a {
+        text-decoration: none;
+        color: hsl(0, 100%, 74%);
+        font-weight: bold;
+    }
+
+
 }
