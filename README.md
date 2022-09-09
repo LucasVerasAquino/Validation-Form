@@ -15,9 +15,7 @@ the codes independently using my knowledge and looking for solutions to the prob
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -59,7 +57,7 @@ Users should be able to:
 This project was the first time I actually got my hands dirty, putting together HTML, CSS and Javascript. Integrating these three and seeing your page flow is wonderful! In this project I learned to manipulate the DOM, what it is and how to use Shadow DOM, responsiveness through Flexbox and breakpoints to meet the needs of different devices. I can say that, without a doubt, what held me most in this project was manipulating the Shadow DOM and envisioning all the possibilities it opens up, making user interaction with the application something dynamic.
 
 
-I want to show you the function I used to validate the inputs, as it was the culprit for hours of abstraction and it helped me improve my logic and understand that solving problems is much more about thinking about the step by step I need to follow to solve it than that code itself.But it also helped me to understand that knowing features, methods and possibilities that the language proposes are of great importance for the construction of a clean, scalable and maintainable code, also understanding that this domain only comes with practice and commitment.The function follows below:
+I want to show you the function I used to validate the inputs, as it was the culprit for hours of abstraction and it helped me improve my logic and understand that solving code problems is much more about thinking about the step by step to solve it than that code itself. But it also helped me to understand that knowing features, methods and possibilities that the language proposes are of great importance for the construction of a clean, scalable and maintainable code, also understanding that the mastery of these things only comes with practice and commitment. The function follows below:
 
 ```js
 function checkInputs(){
@@ -128,33 +126,11 @@ function checkInputs(){
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I intend to build new projects, this being just the first of many. I intend to mature my domain of JavaScript, so that I can master its bases and thus be able to use new tools, libraries and frameworks that it has.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- LinkedIn - [Lucas Veras Aquino](https://www.linkedin.com/in/lucas-veras-aquino-95a7361b1/)
+- Frontend Mentor - [@LucasVerasAquino](https://www.frontendmentor.io/profile/LucasVerasAquino)
