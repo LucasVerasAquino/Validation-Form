@@ -3,7 +3,7 @@
  This was my first project and it was a challenge that I took on the Frontend Mentor website. I was introduced to interesting concepts, writing
 the codes independently using my knowledge and looking for solutions to the problems I didn't know about. Below is the link to the Frontend Mentor challenge: 
 
-(https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
+[Frontend Mentor SignUp Form Challenge](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
 
 ## Table of contents
 
