@@ -57,7 +57,7 @@ function checkInputs(){
         //alterando as classes do elemento pai com shadow-DOM
         emailExample.className = "form-control email-exemple error"
     } else {
-        validInput (email)
+        validInput(email)
     }
 
     //Validação password onde o else if válida o tamanho mínimo da senha
@@ -68,6 +68,16 @@ function checkInputs(){
     } else {
         validInput(password)
     }
+
+    //Caso o formulário esteja válido, será printado no console.
+    const formControls = form.querySelectorAll(".form-control")
+
+    const validForm = [... formControls].every(formControl => {
+        if (formControl.className === "form-control valid") {
+            console.log("Formulário validado")
+        }
+    })
+
 }
 
 //Função que executará os erros de validação
@@ -88,7 +98,7 @@ function validInput (input) {
     const small = formControl.querySelector("small")
 
     small.innerText = ""
-    formControl.className = "form-control"
+    formControl.className = "form-control valid"
 }
 
 //Regex para email
