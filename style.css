@@ -203,18 +203,7 @@ body {
     }
 
     /* Left-side/Top-side  */
-    .container {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-    }
-    
-    .left-side {
-        display: block;
-        margin-bottom: 60px;
-    }
-    
+
     .left-side  header {
         display: flex;
         flex-direction: column;
@@ -239,14 +228,6 @@ body {
     
     
     /* Right-side/down-side */
-    
-    .right-side {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
     
     .trial-card {
         background-color: hsl(248, 32%, 49%);
@@ -282,28 +263,6 @@ body {
         box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.125);
     }
     
-    .form-control {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        font-style: italic;
-        margin-bottom: 18px;
-    }
-    
-    .form-control img {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        right: 18px;
-        top: 16px;
-    }
-    
-    .form-control small {
-        color: hsl(0, 100%, 74%);
-        text-align: right;
-    
-    }
-    
     .form-control input {
         display: block;
         padding: 18px 26px;
@@ -314,37 +273,6 @@ body {
         outline-color: hsl(248, 32%, 49%);
     }
     
-    .submit-btn {
-        box-sizing: border-box;
-        padding: 20px;
-        background-color: hsl(154, 59%, 51%);
-        border: none;
-        border-radius: 6px;
-        color: white;
-        letter-spacing: 1.2px;
-        font-weight: 700;
-        box-shadow: 0px 4px 0px hsl(154, 48%, 48%);
-    }
-    
-    .submit-btn:hover {
-        background-color: hsl(154, 69%, 66%);
-        box-shadow: 0px 4px 0px hsl(154, 58%, 58%);
-        cursor: pointer;
-    }
-    
-    .form > small {
-        color: rgba(0, 0, 0, 0.400);
-        font-size: 10px;
-        text-align: center;
-        margin: 15px 24px 4px 24px;
-    }
-    
-    .form > small > a {
-        text-decoration: none;
-        color: hsl(0, 100%, 74%);
-        font-weight: bold;
-    }
-
 }
 
 
@@ -360,28 +288,12 @@ body {
     }
 
     /* Left-side/Top-side  */
-    .container {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-    }
     
     .left-side {
         display: block;
         margin-bottom: 60px;
     }
     
-    .left-side  header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        color: white;
-        text-align: center;
-        margin-top: 80px;
-    }
     
     .left-side header h1 {
         font-size: 29px;
@@ -392,18 +304,9 @@ body {
     .left-side header p {
         width: 32%;
         font-size: 17px;
-    }
-    
+    } 
     
     /* Right-side/down-side */
-    
-    .right-side {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
     
     .trial-card {
         background-color: hsl(248, 32%, 49%);
@@ -439,28 +342,6 @@ body {
         box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.125);
     }
     
-    .form-control {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        font-style: italic;
-        margin-bottom: 18px;
-    }
-    
-    .form-control img {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        right: 18px;
-        top: 16px;
-    }
-    
-    .form-control small {
-        color: hsl(0, 100%, 74%);
-        text-align: right;
-    
-    }
-    
     .form-control input {
         display: block;
         padding: 18px 26px;
@@ -470,37 +351,7 @@ body {
         font-weight: bold;
         outline-color: hsl(248, 32%, 49%);
     }
-    
-    .submit-btn {
-        box-sizing: border-box;
-        padding: 20px;
-        background-color: hsl(154, 59%, 51%);
-        border: none;
-        border-radius: 6px;
-        color: white;
-        letter-spacing: 1.2px;
-        font-weight: 700;
-        box-shadow: 0px 4px 0px hsl(154, 48%, 48%);
-    }
-    
-    .submit-btn:hover {
-        background-color: hsl(154, 69%, 66%);
-        box-shadow: 0px 4px 0px hsl(154, 58%, 58%);
-        cursor: pointer;
-    }
-    
-    .form > small {
-        color: rgba(0, 0, 0, 0.400);
-        font-size: 10px;
-        text-align: center;
-        margin: 15px 24px 4px 24px;
-    }
-    
-    .form > small > a {
-        text-decoration: none;
-        color: hsl(0, 100%, 74%);
-        font-weight: bold;
-    }
+
 }
 
 
@@ -514,6 +365,7 @@ body {
         background-repeat: repeat-y;
         background-size: cover;
     }
+    
     .container {
         display: flex;
         flex-direction: row;
@@ -553,8 +405,6 @@ body {
         text-align: start;
     }
 
-
-
     /* Right-side/down-side */
 
     .right-side {
@@ -601,37 +451,6 @@ body {
         margin-left: 45px;
     }
 
-    .form-control {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        font-style: italic;
-        margin-bottom: 18px;
-    }
-
-    .form-control img {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        right: 18px;
-        top: 16px;
-    }
-
-    .form-control small {
-        color: hsl(0, 100%, 74%);
-        text-align: right;
-    }
-
-    .form-control input {
-        display: block;
-        padding: 18px 28px;
-        border-radius: 5px;
-        border: 1px solid rgba(0, 0, 0, 0.140);
-        font-size: 14px;
-        font-weight: bold;
-        outline-color: hsl(248, 32%, 49%);
-    }
-
     .submit-btn {
         box-sizing: border-box;
         padding: 18px;
@@ -644,26 +463,6 @@ body {
         font-weight: 700;
         box-shadow: 0px 4px 0px hsl(154, 48%, 48%);
     }
-
-    .submit-btn:hover {
-        background-color: hsl(154, 69%, 66%);
-        box-shadow: 0px 4px 0px hsl(154, 58%, 58%);
-        cursor: pointer;
-    }
-
-    .form > small {
-        color: rgba(0, 0, 0, 0.400);
-        font-size: 11px;
-        text-align: center;
-        margin: 18px 20px 6px 20px;
-    }
-
-    .form > small > a {
-        text-decoration: none;
-        color: hsl(0, 100%, 74%);
-        font-weight: bold;
-    }
-
 
 }
 
@@ -678,6 +477,7 @@ body {
         background-repeat: repeat-y;
         background-size: cover;
     }
+
     .container {
         display: flex;
         flex-direction: row;
@@ -717,8 +517,6 @@ body {
         text-align: start;
     }
 
-
-
     /* Right-side/down-side */
 
     .right-side {
@@ -765,28 +563,6 @@ body {
         margin-left: 60px;
     }
 
-    .form-control {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        font-style: italic;
-        margin-bottom: 18px;
-    }
-
-    .form-control img {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        right: 18px;
-        top: 16px;
-    }
-
-    .form-control small {
-        color: hsl(0, 100%, 74%);
-        text-align: right;
-        font-size: 12px;
-    }
-
     .form-control input {
         display: block;
         padding: 18px 30px;
@@ -796,38 +572,5 @@ body {
         font-weight: bold;
         outline-color: hsl(248, 32%, 49%);
     }
-
-    .submit-btn {
-        box-sizing: border-box;
-        padding: 18px;
-        background-color: hsl(154, 59%, 51%);
-        border: none;
-        border-radius: 6px;
-        color: white;
-        letter-spacing: 1.2px;
-        font-size: 15px;
-        font-weight: 700;
-        box-shadow: 0px 4px 0px hsl(154, 48%, 48%);
-    }
-
-    .submit-btn:hover {
-        background-color: hsl(154, 69%, 66%);
-        box-shadow: 0px 4px 0px hsl(154, 58%, 58%);
-        cursor: pointer;
-    }
-
-    .form > small {
-        color: rgba(0, 0, 0, 0.400);
-        font-size: 11px;
-        text-align: center;
-        margin: 18px 20px 6px 20px;
-    }
-
-    .form > small > a {
-        text-decoration: none;
-        color: hsl(0, 100%, 74%);
-        font-weight: bold;
-    }
-
 
 }
